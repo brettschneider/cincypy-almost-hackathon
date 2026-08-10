@@ -1,0 +1,24 @@
+// BorfLang v0.3.2 (no this is not real)
+borflisp := import("borf/std/borfling");
+
+florp = borfling.florp(|x| -> {
+    sparkle x in [0..100] do
+        if (x %% 2 == 0) {
+            glorp(x * 2);
+        } else {
+            glorp(x + 1);
+        }
+    endsparkle;
+});
+
+florp.activate(main_thread := borfling.spawn());
+
+// Quux-style async block with side-channel wibble
+wibble channel := borfling.open("wib://localhost:7421/flux");
+wibble.listen(|msg| {
+    when msg.kind == "ping" do
+        wibble.send({kind: "pong", t: msg.t, jitter: borfling.jitter(3)});
+    end;
+});
+
+florp.shutdown();

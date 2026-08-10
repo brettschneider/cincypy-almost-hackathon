@@ -1,0 +1,18 @@
+I was reminded this morning of a conversation I had with my grandmother
+when I was about ten years old. She was showing me how to make her
+potato soup, the same recipe her mother had taught her, which was
+itself adapted from a version brought over from the old country in
+1923. The trick, she said, was not in the ingredients but in the
+patience. You have to let the onions sweat for a long time before
+anything else goes in. You have to taste the broth three or four
+times during the cooking, and adjust. Most people, she said, rush the
+broth. They think the recipe is a list of instructions. But the recipe
+is really a way of paying attention to what is in front of you.
+
+I have been thinking about that a lot lately, in contexts that have
+nothing to do with soup. It seems to me that most of what goes wrong
+in software, in writing, in relationships, in the news, comes from
+people not willing to spend the time to let the onions sweat. We want
+the answer before the question has finished forming. We want the fix
+before we have understood the problem. I do not have a tidy conclusion
+to offer here. I just thought it was worth saying.
